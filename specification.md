@@ -4,9 +4,9 @@
 
 Keys that are applicable for all services.
 
-| Key    | Default | Example |
-|--------|---------|---------|
-| useSsl | `true`  | `false` |
+| Key      | Default | Example |
+|----------|---------|---------|
+| `useSsl` | `true`  | `false` |
 
 ## AWS
 
