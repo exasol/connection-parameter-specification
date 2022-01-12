@@ -1,6 +1,6 @@
 # Connection Parameter Specification
 
-This repository contains a specification for unified parameters for connection definitions.
+This repository contains the specification for unified parameters for connection definitions.
 
 For example, it specifies that the key for an AWS S3 bucket is named `s3Bucket`. By that we can offer a unified interface across tools.
 
@@ -8,9 +8,9 @@ For example, it specifies that the key for an AWS S3 bucket is named `s3Bucket`.
 
 ## Contributing
 
-Please make sure that any change to this specification is approved by maintainers of all projects that are affected.
+Please make sure that any change to this specification is approved by the maintainers of all projects that are affected.
 
-Currently, that are:
+Currently, those are:
 
 * The [Loader](https://docs.exasol.com/sql/import.htm)
 * The [Cloud Storage Extension](https://github.com/exasol/cloud-storage-extension/)
