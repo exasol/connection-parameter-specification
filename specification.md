@@ -18,7 +18,7 @@ Keys for connecting to AWS services.
 | `awsSecretAccessKey` |                |                        |
 | `awsSessionToken`    |                |                        |
 | `awsRegion`          |                | `eu-central-1`         |
-| `endpointOverride`   | _AWS endpoint_ | `s3.my-company.de`     |
+| `awsEndpointOverride`| _AWS endpoint_ | `s3.my-company.de`     |
 
 ### S3
 
