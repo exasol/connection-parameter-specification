@@ -2,7 +2,7 @@
 
 This repository contains a specification for unified parameters for connection definitions.
 
-For example, it specifies that the key for an AWS S3 bucket is named `s3Bucket`. By that we can offer a unified interface for across tools.
+For example, it specifies that the key for an AWS S3 bucket is named `s3Bucket`. By that we can offer a unified interface across tools.
 
 [Specification](specification.md)
 
