@@ -22,27 +22,27 @@ For the future it's planned to replace this by an adapted SQL syntax that only a
 
 Keys that are applicable for all services.
 
-| Key      | Default | Example |
-|----------|---------|---------|
-| `useSsl` | `true`  | `false` |
+| Key      | Json Type | Default | Example |
+|----------|-----------|---------|---------|
+| `useSsl` | bool      | `true`  | `false` |
 
 ## AWS
 
 Keys for connecting to AWS services.
 
-| Key                   | Default        | Example                |
-|-----------------------|----------------|------------------------|
-| `awsAccessKeyId`      |                | `ABCDABCDABCDABCD1234` |
-| `awsSecretAccessKey`  |                |                        |
-| `awsSessionToken`     |                |                        |
-| `awsRegion`           |                | `eu-central-1`         |
-| `awsEndpointOverride` | _AWS endpoint_ | `s3.my-company.de`     |
+| Key                   | Json Type | Default        | Example                  |
+|-----------------------|-----------|----------------|--------------------------|
+| `awsAccessKeyId`      | string    |                | `"ABCDABCDABCDABCD1234"` |
+| `awsSecretAccessKey`  | string    |                |                          |
+| `awsSessionToken`     | string    |                |                          |
+| `awsRegion`           | string    |                | `"eu-central-1"`         |
+| `awsEndpointOverride` | string    | _AWS endpoint_ | `"s3.my-company.de"`     |
 
 ### S3
 
 Keys for connecting to AWS S3.
 
-| Key                 | Default | Example        |
-|---------------------|---------|----------------|
-| `s3Bucket`          |         | `my-s3-bucket` |
-| `s3PathStyleAccess` | `false` | `true`         |
+| Key                 | Json Type | Default | Example          |
+|---------------------|-----------|---------|------------------|
+| `s3Bucket`          | string    |         | `"my-s3-bucket"` |
+| `s3PathStyleAccess` | bool      | `false` | `true`           |
