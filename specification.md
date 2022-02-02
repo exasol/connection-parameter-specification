@@ -30,13 +30,13 @@ Keys that are applicable for all services.
 
 Keys for connecting to AWS services.
 
-| Key                   | Json Type | Default        | Example                  |
-|-----------------------|-----------|----------------|--------------------------|
-| `awsAccessKeyId`      | string    |                | `"ABCDABCDABCDABCD1234"` |
-| `awsSecretAccessKey`  | string    |                |                          |
-| `awsSessionToken`     | string    |                |                          |
-| `awsRegion`           | string    |                | `"eu-central-1"`         |
-| `awsEndpointOverride` | string    | _AWS endpoint_ | `"s3.my-company.de"`     |
+| Key                   | Json Type | Default        | Example                            |
+|-----------------------|-----------|----------------|------------------------------------|
+| `awsAccessKeyId`      | string    |                | `"ABCDABCDABCDABCD1234"`           |
+| `awsSecretAccessKey`  | string    |                |                                    |
+| `awsSessionToken`     | string    |                |                                    |
+| `awsRegion`           | string    |                | `"eu-central-1"`                   |
+| `awsEndpointOverride` | string    | _AWS endpoint_ | `"s3.my-company.de"` (no protocol) |
 
 ### S3
 
@@ -46,3 +46,20 @@ Keys for connecting to AWS S3.
 |---------------------|-----------|---------|------------------|
 | `s3Bucket`          | string    |         | `"my-s3-bucket"` |
 | `s3PathStyleAccess` | bool      | `false` | `true`           |
+
+## Google Cloud
+
+Parameters for all Google Cloud integrations.
+
+| Key      | Json Type | Default           | Example                            |
+|----------|-----------|-------------------|------------------------------------|
+| `gcKey`  | JSON      |                   | `{}`                               |
+| `gcHost` | string    | _Google endpoint_ | `"gc.my-company.de"` (no protocol) |
+
+### Google Cloud Storage
+
+Parameters for connecting to Google Cloud Storage.
+
+| Key         | Json Type | Default | Example                            |
+|-------------|-----------|---------|------------------------------------|
+| `gcsBucket` | string    |         | `{"type": "service_account", ...}` |
