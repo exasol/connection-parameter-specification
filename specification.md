@@ -73,5 +73,5 @@ Parameters for connecting to an Azure Blob Storage Container
 
 | Key      | Json Type | Default           | Example                |
 |----------|-----------|-------------------|------------------------|
-| `storageAccountConnectionString`  | JSON      |                   |  `"DefaultEndpointsProtocol=https;AccountName=..."` |
-| `containerName` | string    |                   | `"my-container"` |
+| `absStorageAccountConnectionString`  | JSON      |                   |  `"DefaultEndpointsProtocol=https;AccountName=..."` |
+| `absContainerName` | string    |                   | `"my-container"` |
