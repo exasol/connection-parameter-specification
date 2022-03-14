@@ -67,3 +67,11 @@ Parameters for connecting to Google Cloud Storage.
 | Key         | Json Type | Default | Example                            |
 |-------------|-----------|---------|------------------------------------|
 | `gcsBucket` | string    |         | `{"type": "service_account", ...}` |
+
+## Azure Blob Storage
+Parameters for connecting to an Azure Blob Storage Container
+
+| Key      | Json Type | Default           | Example                |
+|----------|-----------|-------------------|------------------------|
+| `storageAccountConnectionString`  | JSON      |                   |  `"DefaultEndpointsProtocol=https;AccountName=..."` |
+| `containerName` | string    |                   | `"my-container"` |
