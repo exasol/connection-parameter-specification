@@ -78,3 +78,11 @@ Parameters for connecting to an Azure Blob Storage Container.
 |----------|-----------|-------------------|------------------------|
 | `absStorageAccountConnectionString`  | string      |                   |  `"DefaultEndpointsProtocol=https;AccountName=..."` |
 | `absContainerName` | string    |                   | `"my-container"` |
+
+### Azure Data Lake Storage Gen2
+
+| Key      | Json Type | Default           | Example                |
+|----------|-----------|-------------------|------------------------|
+| `adlsStorageAccountName`  | string      |                   |  `"my-storageaccount"` |
+| `adlsStorageAccountKey`  | string      |                   |  `<key>` |
+| `adlsContainerName` | string    |                   | `"my-container"` |
